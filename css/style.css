@@ -98,10 +98,9 @@ h2 {
 }
 .teammate {
     background-color: #ffffff;
-    width: 20%;
     max-width: 210px;
     display: inline-block;
-    padding-top: 10px;
+    padding: 15px 35px 10px;
     margin: 70px 10px 30px 10px;
     box-shadow: 0 2px 5px 0 #cccccc;
 }
