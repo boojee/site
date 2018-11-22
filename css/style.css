@@ -1,0 +1,232 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: auto;
+	color: #5a5a5a;
+	font-family:"ProximaNova-Regular";
+	text-align: center;
+	max-width: 1200px;
+}
+header {
+	padding: 30px 0;	
+}
+.logo {
+	margin-left: 100px;
+}
+.menu a {
+    text-decoration: none;
+    font-family: "Gotham-Medium";
+    font-size: 12px;
+    color: #a7a7a7;
+    padding-right: 120px;	
+}
+.menu a:hover {
+	color: #414141;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+    height: auto;
+}
+main {
+	flex-grow: 1;
+}
+.block-letus {
+    background-image: url(../img/bg-head.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+h1 {
+    font-family: "Gotham-Bold";
+    color: #303030;
+    line-height: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+h2 {
+	font-family: "Gotham-Bold";
+	color: #303030;
+	padding-top: 40px;
+	font-size: 30px;
+}
+.title2 {
+    font-size: 16px;
+    font-family: "Georgia";
+    font-style: italic;
+    text-align: center;
+    color: #5a5a5a;
+    margin-top: 10px;
+}
+.btn {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.rectangle{
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.block-work {
+	text-align: center;
+}
+.block-work img {
+	display: inline-block;
+	padding: 45px 28px 15px 28px;
+	opacity: 0.8;
+}
+.block-work img:hover {
+	opacity: 1;
+}
+.block-team {
+    background-color: #f3f3f3;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 99%;
+    max-width: 1200px;
+    margin-top: 50px;
+    padding-bottom: 45px;
+    border: 1px solid #d9d9d9;
+}
+.teammate {
+    background-color: #ffffff;
+    width: 20%;
+    max-width: 210px;
+    display: inline-block;
+    padding-top: 10px;
+    margin: 70px 10px 30px 10px;
+    box-shadow: 0 2px 5px 0 #cccccc;
+}
+.teammate img {
+	margin: 10px;
+}
+.name {
+	font-family: "Gotham-Bold";
+	color: #303030;
+}
+.who {
+	font-style: italic;
+	color: #303030;
+	font-size: 14px;
+	font-family: "Georgia";
+	margin-top: 8px;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.flex_center_btw {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex-center {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.contact {
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.item {
+	margin: 0 20px 42px 20px;
+}
+.map {
+	border: 5px solid #ffffff;
+	box-shadow: 0px 2px 5px 0px #cccccc;
+}
+.text-contact {
+	margin-bottom: 20px;
+	text-align: left;
+}
+.form2 {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.form2 .input {
+	width: 55%;
+}
+.form2 .submit1 {	
+	width: 35%;
+}
+.form2 .btn-str{
+	margin-right: 10px;
+}
+textarea {
+	background-color: #f2f2f2;
+	min-width: 520px;
+	resize: none;
+	font-size: 16px;
+	font-family: "Georgia";
+	font-style: italic;
+	padding: 35px 0 0 30px;
+	border: 1px solid #d9d9d9;
+}
+.email {
+	background-color: #f2f2f2;
+	width: 100%;
+	font-size: 16px;
+	font-family: "Georgia";
+	font-style: italic;
+	padding: 25px 10px 20px 25px;
+	margin-top: 20px;
+	border: 1px solid #d9d9d9;
+}
+.submit {
+	background-color: #6995a9;
+	width: 100%;
+	font-size: 16px;
+	font-family: "Gotham-Bold";
+	text-align: center;
+	color: #ffffff;
+	box-shadow: 0 2px 5px 0 #ffffff;
+	padding: 25px 10px 20px 25px;
+	margin-top: 20px; 
+}
+footer {
+	background-color: #4f4f4f;
+	padding: 30px 0;
+	background-size: 100%;
+}
+footer p {
+	color: #949494;
+}
+
+
+@font-face {
+font-family: "Gotham-Bold";
+src: url("../fonts/Gotham-Bold.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "Gotham-Medium";
+src: url("../fonts/Gotham-Medium.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "ProximaNova-Regular";
+src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
